@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>APOD</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="logo">NASA</h1>
+            <nav>
+                <a href="https://github.com/FernandaPereira-S" target="_blank"><img src="github.png"></a>
+                <a href="https://www.linkedin.com/in/fernandapereiradasilva/" target="_blank"><img src="linkedin.png"></a>
+            </nav>
+        </header>
+        <main>
+            <h1>Astronomy - Picture of The Day</h1>
+            <label for="data">Escolha uma data:</label>
+            <input type="date" id="data" name="data" required/>
+            <button id="botao">Pesquisar</button>
+            
+            <p id="titulo"></p>
+            <img id="img" style="display: none"/>
+            <iframe id="video" style="display: none"></iframe>
+        </main>
+        <footer>
+            <p>Todos os direitos reservados &copy; 2021 Fernanda Pereira</p>           
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+        <script src="apod.js"></script>
+    </body>
+</html>
